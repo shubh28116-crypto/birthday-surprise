@@ -1381,3 +1381,98 @@ footer{
     animation:none !important;
   }
 }
+/* =================================================
+   FINAL KAWAII COLOR FIX 🐱🧸🎀
+   ================================================= */
+
+#hero,
+#gallery,
+#reasons-page,
+#letter-page{
+  background:
+    radial-gradient(circle at 10% 10%, #ffd9e8 0%, transparent 25%),
+    radial-gradient(circle at 90% 85%, #ffe8f2 0%, transparent 28%),
+    linear-gradient(180deg, #fff3f8 0%, #fffafd 100%) !important;
+}
+
+/* 🩷 Reasons section */
+#reasons-page{
+  color:#3f3037 !important;
+}
+
+#reasons-page .clothesline-rope{
+  background:#222025 !important;
+  opacity:.35;
+}
+
+/* 🩷 Reasons box — blue ko pink */
+#reasons-page .reasons-box{
+  background:linear-gradient(
+    180deg,
+    #ffdbea 0%,
+    #fff0f6 100%
+  ) !important;
+
+  border:2px solid #222025 !important;
+  box-shadow:5px 5px 0 #222025 !important;
+}
+
+/* 🔢 Reason numbers */
+#reasons-page .reasons-list li::before{
+  background:#fff !important;
+  color:#e66b9c !important;
+  box-shadow:0 3px 8px rgba(0,0,0,.12) !important;
+}
+
+/* 🩷 Hanging photo frames */
+#reasons-page .frame-blue,
+#reasons-page .frame-lavender{
+  border-color:#ffc1d9 !important;
+}
+
+/* 🎀 Gallery photo */
+#gallery .photo-frame{
+  background:#ffe4ef !important;
+}
+
+#gallery .polaroid{
+  border:2px solid #222025 !important;
+  box-shadow:5px 5px 0 #222025 !important;
+}
+
+/* 🖤 Letter */
+#letter-page .letter-card{
+  background:#fffafd !important;
+  border:2px solid #222025 !important;
+  box-shadow:6px 6px 0 #222025 !important;
+}
+
+/* 🐱 Cute decorations */
+#reasons-page::before{
+  content:"🐱  ✨  🧸";
+  position:absolute;
+  top:18px;
+  left:15px;
+  font-size:23px;
+  pointer-events:none;
+}
+
+#reasons-page::after{
+  content:"🎀  💗  🐾";
+  position:absolute;
+  right:15px;
+  bottom:18px;
+  font-size:21px;
+  pointer-events:none;
+}
+
+/* 📱 Mobile */
+@media(max-width:640px){
+  #reasons-page::before{
+    font-size:18px;
+  }
+
+  #reasons-page::after{
+    font-size:17px;
+  }
+}
