@@ -7,19 +7,19 @@
 const photos = [
   {
     src: "photos/photo1.jpg",
-    caption: "Thank you for being a part of my life... every day with you feels like a gift."
+    caption: "Nagmaa, thank you for being such a beautiful part of my life. Every moment with you feels special. 💗"
   },
   {
     src: "photos/photo2.jpg",
-    caption: "I hope that on this special day, you are surrounded by happiness and love."
+    caption: "Meri pyari Nagmu, I hope your birthday is filled with all the happiness you deserve. 🎀✨"
   },
   {
     src: "photos/photo3.jpg",
-    caption: "Every laugh, every hug, every little moment with you means the world to me."
+    caption: "Every laugh, every little moment with you becomes a memory I never want to forget. 💕"
   },
   {
     src: "photos/photo4.jpg",
-    caption: "Here's to many more birthdays, adventures, and memories together, my love."
+    caption: "Here's to more smiles, more memories and many more beautiful birthdays with you, Nagmaa. 🎂💖"
   }
 ];
 
